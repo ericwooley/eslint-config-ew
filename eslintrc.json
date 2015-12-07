@@ -1,4 +1,7 @@
 {
+  "plugins": [
+    "eslint-rules"
+  ],
   "extends": "standard",
   "no-long-files": [2, 100],
   "complexity": [2, 5],
