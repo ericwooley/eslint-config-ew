@@ -1,1 +1,2 @@
-module.exports = require('./eslintrc.json')
+var fs = require('fs')
+module.exports = JSON.parse(fs.readFileSync('./.eslintrc'))
