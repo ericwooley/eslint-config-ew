@@ -1,10 +1,12 @@
 {
   "extends": "standard",
   "plugins": ["extra-rules"],
-  "extra-rules/no-long-files": [2, 100],
-  "complexity": [2, 5],
-  "no-var": [2],
-  "prefer-const": 2,
-  "id-length": 3,
-  "max-depth": [2, 4]
+  "rules": {
+    "extra-rules/no-long-files": [2, 20],
+    "complexity": [2, 5],
+    "no-var": [2],
+    "prefer-const": 2,
+    "id-length": [2, {"min": 3, "max": 12}],
+    "max-depth": [2, 4]
+  }
 }
