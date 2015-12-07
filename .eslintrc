@@ -1,6 +1,7 @@
 {
   "extends": "standard",
-  "no-long-files": [2, 100],
+  "plugins": ["extra-rules"],
+  "extra-rules/no-long-files": [2, 100],
   "complexity": [2, 5],
   "no-var": [2],
   "prefer-const": 2,
