@@ -6,7 +6,6 @@
     "complexity": [2, 5],
     "no-var": [2],
     "prefer-const": 1,
-    "id-length": [1, {"min": 2, "max": 12}],
     "max-depth": [2, 4]
   }
 }
