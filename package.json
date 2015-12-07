@@ -1,5 +1,5 @@
 {
-  "name": "eslint-ew",
+  "name": "eslint-config-ew",
   "version": "0.0.1",
   "description": "Custom extension of javascript standard",
   "main": "index.js",
