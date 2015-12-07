@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "eslint-rules"
+    "extra-rules"
   ],
   "extends": "standard",
   "no-long-files": [2, 100],
