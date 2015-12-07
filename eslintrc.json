@@ -1,6 +1,6 @@
 {
   "extends": "standard",
-  "no-long-files": [2, 200],
+  "no-long-files": [2, 100],
   "complexity": [2, 5],
   "no-var": [2],
   "prefer-const": 2,
